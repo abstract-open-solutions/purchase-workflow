@@ -6,7 +6,7 @@ from openerp import models
 
 
 class PurchaseOrder(models.Model):
-    _inherit = "sale.order"
+    _inherit = "purchase.order"
 
     def create(self, cr, uid, vals, context=None):
         context = context or {}
