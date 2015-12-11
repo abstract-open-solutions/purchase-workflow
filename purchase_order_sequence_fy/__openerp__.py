@@ -12,7 +12,7 @@
     "application": False,
     "installable": True,
     "depends": [
-        "sale",
-        "account_auto_sequence_fy"
+        "purchase",
+        "account_auto_fy_sequence",
     ],
 }
